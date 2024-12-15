@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:reflect, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(69, 159, 166, 255), stop:1 rgba(255, 255, 255, 194));</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>40</width>
+    <height>40</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>180</y>
+      <width>291</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 30); 
+border: 4px solid white; 
+border-radius: 6px; 
+padding: 5px;  
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Просмотреть расписание</string>
+    </property>
+    <property name="icon">
+     <iconset resource="d.qrc">
+      <normaloff>:/icons/list_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/list_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>180</y>
+      <width>301</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 30); 
+border: 4px solid white; 
+border-radius: 6px; 
+padding: 5px;  
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>Просмотреть успеваемость</string>
+    </property>
+    <property name="icon">
+     <iconset resource="d.qrc">
+      <normaloff>:/icons/content_paste_search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/content_paste_search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="d.qrc"/>
+ </resources>
+ <connections/>
+</ui>
