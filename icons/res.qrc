@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>content_paste_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>content_paste_search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>description_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>list_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>lock_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>login_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>passkey_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>vpn_key_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</file>
+  </qresource>
+</RCC>

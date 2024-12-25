@@ -50,7 +50,7 @@ color: white;</string>
      <string>Просмотреть расписание</string>
     </property>
     <property name="icon">
-     <iconset resource="d.qrc">
+     <iconset resource="../icons/res.qrc">
       <normaloff>:/icons/list_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/list_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</iconset>
     </property>
     <property name="iconSize">
@@ -87,7 +87,7 @@ color: white;</string>
      <string>Просмотреть успеваемость</string>
     </property>
     <property name="icon">
-     <iconset resource="d.qrc">
+     <iconset resource="../icons/res.qrc">
       <normaloff>:/icons/content_paste_search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/content_paste_search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg</iconset>
     </property>
     <property name="iconSize">
@@ -100,7 +100,7 @@ color: white;</string>
   </widget>
  </widget>
  <resources>
-  <include location="d.qrc"/>
+  <include location="../icons/res.qrc"/>
  </resources>
  <connections/>
 </ui>
