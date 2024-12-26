@@ -94,34 +94,6 @@ class Shedule_stud(QDialog):
     def exit(self):
         self.close()
 
-class Emp_menu(QMainWindow):
-    def __init__(self):
-        super(Emp_menu, self).__init__()
-        self.ui = inter_employee.Ui_MainWindow()
-        self.ui.setupUi(self)
-        self.ui.pushButton_5.clicked.connect(self.window_change_sh_edit)
-        self.ui.pushButton_6.clicked.connect(self.window_change_sh_edit)
-
-    def window_change_sh_edit(self):
-        self.hide()
-        form = Shedule_edit()
-        form.exec_()
-        self.show()
-
-class Stud_menu(QMainWindow):
-    def __init__(self, Stg):
-        super(Stud_menu, self).__init__()
-        self.ui = inter_student.Ui_MainWindow()
-        self.ui.setupUi(self)
-        self.ui.pushButton_6.clicked.connect(self.window_change_sh_view)
-        self.Stg = Stg
-
-    def window_change_sh_view(self):
-        self.hide()
-        form = Shedule_stud(self.Stg)
-        form.exec_()
-        self.show()
-
 class Log_menu(QMainWindow):
     def __init__(self):
         super(Log_menu, self).__init__()
@@ -164,6 +136,47 @@ class Log_menu(QMainWindow):
             msg.setWindowTitle("Ошибка")
             msg.setStyleSheet("background-color: white; color: black;")
             msg.exec_()
+
+class Emp_menu(QMainWindow):
+    def __init__(self):
+        super(Emp_menu, self).__init__()
+        self.ui = inter_employee.Ui_MainWindow()
+        self.ui.setupUi(self)
+        self.ui.pushButton_5.clicked.connect(self.window_change_sh_edit)
+        self.ui.pushButton_6.clicked.connect(self.window_change_sh_edit)
+        self.ui.pushButton_bk.clicked.connect(self.window_change_sh_view_log)
+
+    def window_change_sh_view_log(self):
+        self.hide()
+        self.log_menu = Log_menu()
+        self.log_menu.show()
+
+    def window_change_sh_edit(self):
+        self.hide()
+        form = Shedule_edit()
+        form.exec_()
+        self.show()
+
+class Stud_menu(QMainWindow):
+    def __init__(self, Stg):
+        super(Stud_menu, self).__init__()
+        self.ui = inter_student.Ui_MainWindow()
+        self.ui.setupUi(self)
+        self.ui.pushButton_6.clicked.connect(self.window_change_sh_view)
+        self.Stg = Stg
+        self.ui.pushButton_bk.clicked.connect(self.window_change_sh_view_log)
+
+    def window_change_sh_view_log(self):
+        self.hide()
+        self.log_menu = Log_menu()
+        self.log_menu.show()
+
+    def window_change_sh_view(self):
+        self.hide()
+        form = Shedule_stud(self.Stg)
+        form.exec_()
+        self.show()
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

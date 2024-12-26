@@ -1,12 +1,4 @@
-# -*- coding: utf-8 -*-
 
-################################################################################
-## Form generated from reading UI file 'inter_student.ui'
-##
-## Created by: Qt User Interface Compiler version 6.8.0
-##
-## WARNING! All changes made in this file will be lost when recompiling UI file!
-################################################################################
 
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
     QMetaObject, QObject, QPoint, QRect,
@@ -57,6 +49,16 @@ class Ui_MainWindow(object):
         icon1.addFile(u"C:/Users/user/Documents/GitHub/Programm_ing/icons/content_paste_search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.pushButton_7.setIcon(icon1)
         self.pushButton_7.setIconSize(QSize(40, 40))
+        self.pushButton_bk = QPushButton(self.centralwidget)
+        self.pushButton_bk.setObjectName(u"pushButton_bk")
+        self.pushButton_bk.setGeometry(QRect(330, 340, 121, 51))
+        self.pushButton_bk.setFont(font)
+        self.pushButton_bk.setStyleSheet(u"background-color: rgba(255, 255, 255, 30); \n"
+"border: 4px solid white; \n"
+"border-radius: 10px; \n"
+"padding: 5px;  \n"
+"color: white;")
+        self.pushButton_bk.setIconSize(QSize(40, 40))
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -68,5 +70,6 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
         self.pushButton_6.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435", None))
         self.pushButton_7.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0443\u0441\u043f\u0435\u0432\u0430\u0435\u043c\u043e\u0441\u0442\u044c", None))
+        self.pushButton_bk.setText(QCoreApplication.translate("MainWindow", u"\u0412\u042b\u0425\u041e\u0414", None))
     # retranslateUi
 

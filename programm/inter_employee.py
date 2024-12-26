@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-
-################################################################################
-## Form generated from reading UI file 'inter_employee.ui'
-##
-## Created by: Qt User Interface Compiler version 6.8.0
-##
-## WARNING! All changes made in this file will be lost when recompiling UI file!
-################################################################################
 
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
     QMetaObject, QObject, QPoint, QRect,
@@ -30,7 +21,7 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName(u"centralwidget")
         self.pushButton_4 = QPushButton(self.centralwidget)
         self.pushButton_4.setObjectName(u"pushButton_4")
-        self.pushButton_4.setGeometry(QRect(430, 140, 301, 101))
+        self.pushButton_4.setGeometry(QRect(430, 120, 301, 101))
         font = QFont()
         font.setPointSize(14)
         font.setBold(True)
@@ -46,7 +37,7 @@ class Ui_MainWindow(object):
         self.pushButton_4.setIconSize(QSize(40, 40))
         self.pushButton_5 = QPushButton(self.centralwidget)
         self.pushButton_5.setObjectName(u"pushButton_5")
-        self.pushButton_5.setGeometry(QRect(70, 140, 291, 101))
+        self.pushButton_5.setGeometry(QRect(70, 120, 291, 101))
         self.pushButton_5.setFont(font)
         self.pushButton_5.setStyleSheet(u"background-color: rgba(255, 255, 255, 30); \n"
 "border: 4px solid white; \n"
@@ -59,7 +50,7 @@ class Ui_MainWindow(object):
         self.pushButton_5.setIconSize(QSize(40, 40))
         self.pushButton_6 = QPushButton(self.centralwidget)
         self.pushButton_6.setObjectName(u"pushButton_6")
-        self.pushButton_6.setGeometry(QRect(70, 270, 291, 101))
+        self.pushButton_6.setGeometry(QRect(70, 250, 291, 101))
         font1 = QFont()
         font1.setPointSize(12)
         font1.setBold(True)
@@ -75,7 +66,7 @@ class Ui_MainWindow(object):
         self.pushButton_6.setIconSize(QSize(40, 40))
         self.pushButton_7 = QPushButton(self.centralwidget)
         self.pushButton_7.setObjectName(u"pushButton_7")
-        self.pushButton_7.setGeometry(QRect(430, 270, 301, 101))
+        self.pushButton_7.setGeometry(QRect(430, 250, 301, 101))
         self.pushButton_7.setFont(font1)
         self.pushButton_7.setStyleSheet(u"background-color: rgba(255, 255, 255, 30); \n"
 "border: 4px solid white; \n"
@@ -86,6 +77,16 @@ class Ui_MainWindow(object):
         icon3.addFile(u"C:/Users/user/Documents/GitHub/Programm_ing/icons/content_paste_search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.pushButton_7.setIcon(icon3)
         self.pushButton_7.setIconSize(QSize(40, 40))
+        self.pushButton_bk = QPushButton(self.centralwidget)
+        self.pushButton_bk.setObjectName(u"pushButton_bk")
+        self.pushButton_bk.setGeometry(QRect(340, 390, 121, 51))
+        self.pushButton_bk.setFont(font1)
+        self.pushButton_bk.setStyleSheet(u"background-color: rgba(255, 255, 255, 30); \n"
+"border: 4px solid white; \n"
+"border-radius: 10px; \n"
+"padding: 5px;  \n"
+"color: white;")
+        self.pushButton_bk.setIconSize(QSize(40, 40))
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -99,5 +100,6 @@ class Ui_MainWindow(object):
         self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"\u0421\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435", None))
         self.pushButton_6.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435", None))
         self.pushButton_7.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0443\u0441\u043f\u0435\u0432\u0430\u0435\u043c\u043e\u0441\u0442\u044c", None))
+        self.pushButton_bk.setText(QCoreApplication.translate("MainWindow", u"\u0412\u042b\u0425\u041e\u0414", None))
     # retranslateUi
 

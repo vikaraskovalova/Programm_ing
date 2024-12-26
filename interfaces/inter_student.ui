@@ -97,6 +97,39 @@ color: white;</string>
      </size>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_bk">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>340</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 30); 
+border: 4px solid white; 
+border-radius: 10px; 
+padding: 5px;  
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>ВЫХОД</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources>
